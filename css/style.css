@@ -1,0 +1,18 @@
+/* impostazioni generali */
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+
+/* layout untestazione */
+header {
+    background-image: url(../img/pattern.png);
+    background-color: rgb(92, 128, 238);
+    height: 180px;
+}
+
+#logo {
+    height: 60px;
+    margin-top: 100px;
+    margin-left: 20px;   
+}
