@@ -9,7 +9,7 @@ p {
     margin-bottom: 30px;
 }
 
-/* layout untestazione */
+/* layout intestazione */
 header {
     background-image: url(../img/pattern.png);
     background-color: rgb(92, 128, 238);
@@ -22,16 +22,49 @@ header {
     margin-left: 20px;   
 }
 
-/* layout titolo e sottotilo articolo */
+/* layout titolo e sottotitoli */
 #titolo {
     font-size: 55px;
 }
 
-#sottotitolo {
+.sottotitolo {
     color: rgb(134, 134, 134);
     margin-bottom: 20px;
 }
 
 #autore {
     color: rgb(92, 128, 238);
+}
+
+/* layout contenuto articolo */
+.evidenziato {
+    background-color: yellow;
+}
+
+/* layout tabella */
+table {
+    margin-top: 30px;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+thead {
+    background-color: rgb(92, 128, 238);
+    color: white;
+}
+
+.riga_colorata {
+    background-color: rgb(150, 223, 252);
+}
+
+.colonna1 {
+    width: 25%;
+}
+
+.colonna2 {
+    width: 25%;
+}
+
+.colonna3 {
+    width: 50%;
 }
