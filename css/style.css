@@ -4,6 +4,11 @@
   margin: 0;
 }
 
+p {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
 /* layout untestazione */
 header {
     background-image: url(../img/pattern.png);
@@ -15,4 +20,18 @@ header {
     height: 60px;
     margin-top: 100px;
     margin-left: 20px;   
+}
+
+/* layout titolo e sottotilo articolo */
+#titolo {
+    font-size: 55px;
+}
+
+#sottotitolo {
+    color: rgb(134, 134, 134);
+    margin-bottom: 20px;
+}
+
+#autore {
+    color: rgb(92, 128, 238);
 }
